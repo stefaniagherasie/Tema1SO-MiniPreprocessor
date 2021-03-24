@@ -1,6 +1,7 @@
 # Tema1SO-MiniPreprocessor
-[Tema1 - Sisteme de Operare] Tema presupune implementarea unui mini preprocesor pentru fișiere conținând cod sursă C.
-
+[Tema1 - Sisteme de Operare] Tema presupune implementarea unui mini preprocesor pentru fișiere conținând cod sursă C. <br>
+Enunt: https://ocw.cs.pub.ro/courses/so/teme/tema-1
+<br>
 
 #### COMPILARE SI RULARE
     LINUX     (se foloseste GNUmakefile) 
