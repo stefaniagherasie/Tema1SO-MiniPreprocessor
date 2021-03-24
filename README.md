@@ -5,15 +5,15 @@ Enunt: https://ocw.cs.pub.ro/courses/so/teme/tema-1
 
 #### COMPILARE SI RULARE
     LINUX     (se foloseste GNUmakefile) 
-      ▬ in directorul curent se executa comanda make, obtinandu-se executabilul so-cpp
-      ▬ RULARE LOCALA
+      ► in directorul curent se executa comanda make, obtinandu-se executabilul so-cpp
+      ► RULARE LOCALA
           ./so-cpp [-D <SYMBOL>[=<MAPPING>]]  [-I <DIR>]  [<INFILE>]  [[-o] <OUTFILE>]
-      ▬ RULARE CHECKER - se copiaza executabilul in fisierul in care se afla ./run_all.sh (multi)
+      ► RULARE CHECKER - se copiaza executabilul in fisierul in care se afla ./run_all.sh (multi)
           ./run_all.sh  sau  make -f Makefile.checker
 
     WINDOWS   (se foloseste Makefile)
-      ▬ din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
-      ▬ din Cygwin se urmeaza aceeasi pasi ca la Linux 
+      ► din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
+      ► din Cygwin se urmeaza aceeasi pasi ca la Linux 
 	
 #### ORGANIZARE
 
