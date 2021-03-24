@@ -49,7 +49,6 @@ perechea (key, value) corespunzatoare din HashMap. Liniile normale din fisier se
 scriu pe rand, inlocuindu-se variabilele declarate cu #define din continutul lor. Se
 tine cont ca pot exista chei intre ghilimele, caz in care nu se inlocuiesc.
 
-
 #### BIBLIOGRAFIE 
 
 - https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-01
