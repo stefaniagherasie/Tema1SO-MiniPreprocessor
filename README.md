@@ -37,7 +37,7 @@ daca se face citirea/scrierea de la stdin/stdout.
 Se parcurge fisierul linie cu linie, adaugandu-se #define-uri atunci cand se intalnesc.
 Pentru #define-uri imbricate, se apeleaza functia de applyDefine pe valoarea asociata cheii
 inainte ca aceasta sa se introduca in hashmap. Pentru #define-urile pe mai multe linii, 
-se salveaza intr-un buffer liniile pana se intalneste o linie care nu mai contine \ la 
+se salveaza intr-un buffer liniile pana se intalneste o linie care nu mai contine "\" la 
 final. Pentru #include, se obtine directorul curent si se testeaza daca fisierul header
 exista acolo. Daca nu, se testeaza pe rand directoarele incluse cu -I. Cand se gaseste
 un director in care exista fisierul header, continutul acesta se parseaza prin apelarea
