@@ -1,6 +1,6 @@
 # Tema1SO-MiniPreprocessor
 [Tema1 - Sisteme de Operare] Tema presupune implementarea unui mini preprocesor pentru fișiere conținând cod sursă C.  <br>
-Enuntul se gaseste [aici](https://ocw.cs.pub.ro/courses/so/teme/tema-1). <br>
+Enuntul se gaseste [aici](https://ocw.cs.pub.ro/courses/so/teme/tema-1) <br>
 Scheletul de cod se gaseste [aici](https://github.com/systems-cs-pub-ro/so/tree/master/assignments/1-multi/checker/multi).
 <br>
 
