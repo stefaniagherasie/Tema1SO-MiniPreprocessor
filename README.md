@@ -16,11 +16,11 @@
 ```shell
 ./run_all.sh  sau  make -f Makefile.checker
 ```
-<br>
 
 #### 2. Windows   (se foloseste Makefile)
 - din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
 - din Cygwin se urmeaza aceeasi pasi ca la Linux 
+<br>
 
 ## Organizare
 
