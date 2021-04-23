@@ -2,21 +2,24 @@
 [Tema1 - Sisteme de Operare] Tema presupune implementarea unui mini preprocesor pentru fișiere conținând cod sursă C.  <br>
 > Enuntul se gaseste [aici](https://ocw.cs.pub.ro/courses/so/teme/tema-1).<br>
 > Scheletul de cod se gaseste [aici](https://github.com/systems-cs-pub-ro/so/tree/master/assignments/1-multi/checker/multi).
-<br>
+
 
 ## Compilare si Rulare
-```
-    LINUX     (se foloseste GNUmakefile) 
-      ► in directorul curent se executa comanda make, obtinandu-se executabilul so-cpp
-      ► RULARE LOCALA
-          ./so-cpp [-D <SYMBOL>[=<MAPPING>]]  [-I <DIR>]  [<INFILE>]  [[-o] <OUTFILE>]
-      ► RULARE CHECKER - se copiaza executabilul in fisierul in care se afla ./run_all.sh (multi)
-          ./run_all.sh  sau  make -f Makefile.checker
 
-    WINDOWS   (se foloseste Makefile)
-      ► din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
-      ► din Cygwin se urmeaza aceeasi pasi ca la Linux 
+ᐅ LINUX     (se foloseste GNUmakefile) 
+- in directorul curent se executa comanda make, obtinandu-se executabilul so-cpp
+- RULARE LOCALA
+```shell
+./so-cpp [-D <SYMBOL>[=<MAPPING>]]  [-I <DIR>]  [<INFILE>]  [[-o] <OUTFILE>]
 ```
+- RULARE CHECKER - se copiaza executabilul in fisierul in care se afla ./run_all.sh (multi)
+```shell
+./run_all.sh  sau  make -f Makefile.checker
+```
+
+ᐅ WINDOWS   (se foloseste Makefile)
+- din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
+- din Cygwin se urmeaza aceeasi pasi ca la Linux 
 
 ## Organizare
 
@@ -54,5 +57,5 @@ tine cont ca pot exista chei intre ghilimele, caz in care nu se inlocuiesc.
 
 ## Bibliografie
 
-- https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-01
-- https://stackoverflow.com/
+1. https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-01
+2. https://stackoverflow.com/
