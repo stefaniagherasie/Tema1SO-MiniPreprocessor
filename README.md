@@ -6,7 +6,7 @@
 
 ## Compilare si Rulare
 
-#### 1. Linux     (se foloseste GNUmakefile) 
+#### LINUX     (se foloseste GNUmakefile) 
 - in directorul curent se executa comanda make, obtinandu-se executabilul so-cpp
 - RULARE LOCALA
 ```shell
@@ -17,7 +17,7 @@
 ./run_all.sh  sau  make -f Makefile.checker
 ```
 
-#### 2. Windows   (se foloseste Makefile)
+#### WINDOWS   (se foloseste Makefile)
 - din Powershell se va executa comanda nmake, obtinandu-se executabilul so-cpp.exe
 - din Cygwin se urmeaza aceeasi pasi ca la Linux 
 <br>
@@ -30,7 +30,7 @@ sursa C.
 - ```directory.c``` - implementarea unei structuri pentru retinerea numelor directoarelor date ca
 paramentru pentru directiva -I
 - ```so-cpp.c``` - parsarea argumentelor si preprocesarea fisierului C
-
+<br>
 
 ## Implementare
 
